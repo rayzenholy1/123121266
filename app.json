@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Registration",
+    "slug": "registration-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Доступ до галереї потрібен для вибору фото профілю"
+        }
+      ]
+    ]
+  }
+}
